@@ -1,4 +1,4 @@
-from selenium import webdriver
+from selenium import webdriver 
 from selenium.webdriver.common.keys import Keys
 
 email = input("enter the email id?: ")
