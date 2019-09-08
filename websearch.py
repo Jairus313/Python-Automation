@@ -4,7 +4,7 @@ from selenium.webdriver.common.keys import Keys
 email = input("enter the email id?: ")
 password = input("enter the password?: ")
 
-driver = webdriver.Chrome("C:\\webdrivers\\chromedriver.exe")
+driver = webdriver.Chrome("C:\\webdrivers\\chromedriver.exe") # paste your address where you have installed web driver
 driver.get("https://accounts.google.com/AddSession?sacu=1&service=lso#identifier")
 
 driver.find_element_by_id("Email").send_keys(email)
